@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Red+Hat+Display:wght@400;500&display=swap"
+        rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/app.css"/>
+    <title>PlatziMovies</title>
+</head>
+<body>
+    <header id="header" class="header-container">
+        <span class="header-arrow inactive">&lt;</span>
+        <h1 class="header-title">PlatziMovies</h1>
+        <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+        <form id="searchForm" class="header-searchForm">
+            <input type="text" placeholder="Vengadores"/>
+            <button id="searchFormBtn" type="submit">🔍</button>
+        </form>
+    </header>
+    <main>
+        <section id="trendingPrev" class="trendingPrev-container">
+            <div class="trendingPrev-header">
+                <h2 class="trendingPrev-title">Tendencias</h2>
+                <button class="trendingPrev-btn">Ver más</button>
+            </div>
+            <article class="trendingPrev-movieList"></article>
+        </section>
+        <section id="categoriesPrev" class="categoriesPrev-container">
+            <h2 class="categoriesPrev-title">Categorías</h2>
+            <article class="categoriesPrev-list"></article>
+        </section>
+        <section id="genericList" class="genericList-container inactive"></section>
+        <section id="movieDetail" class="movieDetail-container inactive">
+            <h1 class="movieDetail-title"></h1>
+            <span class="movieDetail-score"></span>
+            <p class="movieDetail-description"></p>
+            <article class="categories-list"></article>
+            <article class="relatedMovies-container">
+                <h2 class="relatedMovies-title">Películas similares</h2>
+                <div class="relatedMovies-scrollContainer"></div>
+            </article>
+        </section>
+    </main>
+    <footer>Hecho con 💜 por Veronica Castro</footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/secrets.js"></script>
+    <script src="src/nodes.js"></script>
+    <script src="src/main.js"></script>
+    <script src="src/navigation.js"></script>
+</body>
+</html>

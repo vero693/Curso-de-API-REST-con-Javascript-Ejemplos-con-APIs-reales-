@@ -1,0 +1,25 @@
+{
+  "name": "curso-de-api-rest-con-javascript-ejemplos-con-apis-reales-",
+  "version": "1.0.0",
+  "description": "App web donde se usa la api the Movie Db.",
+  "keywords": [
+    "\"api\"",
+    "\"rest\"",
+    "\"axios\""
+  ],
+  "homepage": "https://github.com/vero693/Curso-de-API-REST-con-Javascript-Ejemplos-con-APIs-reales-#readme",
+  "bugs": {
+    "url": "https://github.com/vero693/Curso-de-API-REST-con-Javascript-Ejemplos-con-APIs-reales-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vero693/Curso-de-API-REST-con-Javascript-Ejemplos-con-APIs-reales-.git"
+  },
+  "license": "MIT",
+  "author": "\"Veronica Castro <veronicacastrogrisales@gmail.com>",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
